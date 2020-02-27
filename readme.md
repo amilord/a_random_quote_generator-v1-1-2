@@ -8,4 +8,4 @@ document.getElementById('quote-box').innerHTML = yourStringHere;
 some of my quotes read undefined after the source, and i think it might be die to me only including citation and a year for two out of my 3  quotes. 
 
 Sources i used for this project outside of treehouse consisted of 
-W3 ands MDN 
+W3 and MDN 
