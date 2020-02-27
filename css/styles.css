@@ -6,7 +6,7 @@
  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
 
 body {
-  background-color: rgb(58, 193, 98);
+  background-color: rgb(9, 43, 117);
   color: white;
   font-family: 'Playfair Display', serif;
   padding: 5px;
@@ -56,7 +56,7 @@ h1 {
 }
 
 .quote-box {
-  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+  text-shadow: 1px 1px 1px rgba(67, 16, 207, 0.3);
   line-height: 0.5;
 }
 
