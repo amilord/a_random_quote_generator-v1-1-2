@@ -5,7 +5,7 @@ I then created a function that shows a new quote everytime the button is clicked
 
 document.getElementById('quote-box').innerHTML = yourStringHere; 
 
-some of my quotes read undefined after the source, and i think it might be due to me only including citation and a year for two out of my 3  quotes. 
+some of my quotes read undefined after the source, and i think it might be due to me only including citation and a year for two out of my 3  quotes. .... I have fixed this issue and it no longer is showing undefined. 
 
 Sources I used for this project outside of treehouse consisted of 
 W3 and MDN 
