@@ -65,20 +65,21 @@ console.log(randomQuote);
 function printQuote() {
   var yourStringHere = "";    
   var randomQuote = getRandomQuote(quotes);
-                 yourStringHere += "<p class='quote'>" + randomQuote.quote + "</p>";
-                                 yourStringHere += "<p class='source'>" + randomQuote.source;
-
-                                // Created conditional statements to determine what prints  to the page which fixed the properties printing as undefined which i mentioned in my read.me file///
+  yourStringHere += "<p class='quote'>" + randomQuote.quote + "</p>";
+  
+  yourStringHere += "<p class='source'>" + randomQuote.source;
+  
+// Created conditional statements to determine what prints  to the page which fixed the properties printing as undefined which i mentioned in my read.me file///
 //  
-                            if(randomQuote.citation){
-                                                 yourStringHere += "<span class='citation'>" + randomQuote.citation + "</span>";
-                                }
+  if(randomQuote.citation){
+  yourStringHere += "<span class='citation'>" + randomQuote.citation + "</span>";
+  }
                                  
-                                 if(randomQuote.year){
-                                                  yourStringHere += "<span class='year'>" + randomQuote.year + "</span>";
-                                 }
+  if(randomQuote.year){
+  yourStringHere += "<span class='year'>" + randomQuote.year + "</span>";
+  }
                                  
-                                                                                yourStringHere += "</p>";
+  yourStringHere += "</p>";
 
   document.getElementById('quote-box').innerHTML = yourStringHere;
 
