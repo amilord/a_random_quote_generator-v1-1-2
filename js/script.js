@@ -56,27 +56,32 @@ return randomQuote;
 var randomQuote = getRandomQuote(quotes);
 console.log(randomQuote);
 
-
 /***
- * `printQuote` function
+ * `printQuote` function displays a new quote each time the user clicks the "Show another quote" button using the printQuote function
 ***/
 function printQuote() {
   var yourStringHere = "";    
   var randomQuote = getRandomQuote(quotes);
                  yourStringHere += "<p class='quote'>" + randomQuote.quote + "</p>";
                                  yourStringHere += "<p class='source'>" + randomQuote.source;
+                                 if(randomQuote.citation){
                                                  yourStringHere += "<span class='citation'>" + randomQuote.citation + "</span>";
+                                 }
+                                 if(randomQuote.year) {
                                                                 yourStringHere += "<span class='year'>" + randomQuote.year + "</span>"
+                                 }
                                                                                 yourStringHere += "</p>";
 
   document.getElementById('quote-box').innerHTML = yourStringHere;
+
 }
+// Create conditional statements to determine what prints  to the page 
+// 
 
 printQuote();
 
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
-
 
 
 
