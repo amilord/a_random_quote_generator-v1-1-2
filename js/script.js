@@ -75,15 +75,4 @@ printQuote();
 
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
