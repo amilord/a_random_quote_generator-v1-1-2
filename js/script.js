@@ -1,15 +1,3 @@
-/******************************************
-Treehouse FSJS Techdegree:
-project 1 - A Random Quote Generator
-******************************************/
-
-// For assistance: 
-  // Check the "Project Resources" section of the project instructions
-  // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
-
-//created an array of objects to store the data for my quotes and added data to my quite objects
-//
-
 var quotes = [
   { quote: 'Everything I did wrongly is an experience… to be honest and truthful in all endeavours is an experience, not a regret.',
           source: 'Fela Kuti',
@@ -54,10 +42,7 @@ function getRandomQuote(array) {
             for (var i = 0; i < array.length; i++) {
                     var randomQuote = array[quoteIndex];
 }
-return randomQuote;
-}
-var randomQuote = getRandomQuote(quotes);
-console.log(randomQuote);
+
 
 
 //printQuote function displays a new quote each time the user clicks the "Show another quote" button using the printQuote function
@@ -90,3 +75,15 @@ printQuote();
 
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
