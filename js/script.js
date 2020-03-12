@@ -28,7 +28,7 @@ var quotes = [
     source: 'Tupac Shakur',
   },
   {
-    quote: 'Without a game plan and without a strong sense of faith in what you're doing, it's gonna be real hard to accomplish anything.',
+    quote: 'Without a game plan and without a strong sense of faith in what you are doing, it is gonna be real hard to accomplish anything.',
     source: 'Nipsey Hussle',
   }
 ];
