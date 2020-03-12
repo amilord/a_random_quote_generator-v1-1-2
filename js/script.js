@@ -29,7 +29,7 @@ var quotes = [
 
   {
     quote: 'The greatest weapon in the hand of the oppressor is the mind of the oppressed.',
-          source: 'Steven Biko',
+    source: 'Steven Biko',
                  
   },
 
@@ -42,8 +42,6 @@ var quotes = [
   {
     quote: 'Without a game plan and without a strong sense of faith in what you’re doing, it’s gonna be real hard to accomplish anything.',
     source: 'Nipsey Hussle',
-                 
-  
   }
 ];
 
