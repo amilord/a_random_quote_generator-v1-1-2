@@ -1,6 +1,17 @@
+/******************************************
+Treehouse FSJS Techdegree:
+project 1 - A Random Quote Generator
+******************************************/
+
+// For assistance: 
+  // Check the "Project Resources" section of the project instructions
+  // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
 
 
+
+//created an array of objects to store the data for my quotes and added data to my quite objects
+//
 var quotes = [
   { quote: 'Everything I did wrongly is an experience… to be honest and truthful in all endeavours is an experience, not a regret.',
           source: 'Fela Kuti',
