@@ -1,3 +1,6 @@
+
+
+
 var quotes = [
   { quote: 'Everything I did wrongly is an experience… to be honest and truthful in all endeavours is an experience, not a regret.',
           source: 'Fela Kuti',
@@ -41,6 +44,8 @@ function getRandomQuote(array) {
   var quoteIndex = Math.floor( Math.random() * (quotes.length));
             for (var i = 0; i < array.length; i++) {
                     var randomQuote = array[quoteIndex];
+}
+  
 }
 
 
